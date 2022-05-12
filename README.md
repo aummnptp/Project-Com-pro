@@ -163,3 +163,5 @@ void Open()
   }
 }
 ```
+## แบบจำลองวงจร
+<br>https://wokwi.com/projects/331185567322604116
