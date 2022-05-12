@@ -33,6 +33,22 @@ byte colPins[COLS] = {4, 5, 6, 7};
 
 Keypad customKeypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 ```
+## Servo
+```cpp
+void ServoClose()
+{
+  for (pos = 90; pos >= 0; pos -= 10) { 
+    myservo.write(pos);
+  }
+}
+
+void ServoOpen()
+{
+  for (pos = 0; pos <= 90; pos += 10) {
+    myservo.write(pos);  
+  }
+}
+```
 ## Action
 ```cpp
 void setup()
