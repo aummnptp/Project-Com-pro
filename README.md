@@ -1,5 +1,5 @@
 # Digital Keypad Security Door Lock using Arduino
-![Poster](img/Poster.png | width=842 height=1192 )
+![Poster](https://cdn.discordapp.com/attachments/969869597509574656/973981692744314900/PasscodeDoor.png | width=842 height=1192 )
 # บทคัดย่อ
 ชื่อโครงงานภาษาไทย :  ระบบล็อคประตูโดยใช้ Arduino\
 ชื่อโครงงานภาษาอังกฤษ : Digital Keypad Security Door Lock using Arduino\
