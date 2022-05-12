@@ -1,2 +1,2 @@
 # Digital Keypad Security Door Lock using Arduino
-![keypad](img/keypad.jpg)
+![Poster](img/Poster.jpg)
