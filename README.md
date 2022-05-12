@@ -1,7 +1,7 @@
 # Digital Keypad Security Door Lock using Arduino
 ![Poster](img/Poster.png)
 # บทคัดย่อ
-ชื่อโครงงานภาษาไทย :  ระบบล็อคประตูโดยใช้ Arduino br/
+ชื่อโครงงานภาษาไทย :  ระบบล็อคประตูโดยใช้ Arduino br\
 ชื่อโครงงานภาษาอังกฤษ : Digital Keypad Security Door Lock using Arduino
 ชื่อผู้ทำโครงงาน : นาย กิตตินันท์ เจริญทรง 64070007
                   นาย พัสกร คำแก้ว 64070073
