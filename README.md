@@ -16,6 +16,27 @@
 <br>&emsp;&emsp;&emsp;&emsp;ระบบล็อคประตูโดยใช้ Arduino board จัดทำขึ้นโดยมีวัตถุประสงค์เพื่อใช้ในการศึกษาเกี่ยวกับการทำงานของ Arduino และยังสามารถนำไปใช้เพื่อยกระดับความปลอดภัยได้
 ## Arduino Board
 <br><img src="./img/arduino.png" width=442 height=391>
+## Start
+```cpp
+#include <Keypad.h>
+#include <LiquidCrystal.h>
+#include <Servo.h>
+
+#define Password_Length 5
+
+Servo myservo;
+LiquidCrystal lcd(A0, A1, A2, A3, A4, A5);
+
+int pos = 0;
+
+char Data[Password_Length];
+char Master[Password_Length] = "1234";
+byte data_count = 0, master_count = 0;
+
+bool Pass_is_good;
+bool door = false;
+char customKey;
+```
 ## Keypad
 ```cpp
 const byte ROWS = 4;
@@ -98,20 +119,6 @@ void clearData()
     Data[data_count--] = 0;
   }
   return;
-}
-
-void ServoClose()
-{
-  for (pos = 90; pos >= 0; pos -= 10) { 
-    myservo.write(pos);
-  }
-}
-
-void ServoOpen()
-{
-  for (pos = 0; pos <= 90; pos += 10) {
-    myservo.write(pos);  
-  }
 }
 
 void Open()
