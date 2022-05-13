@@ -21,7 +21,7 @@
 #include <Keypad.h>
 #include <LiquidCrystal.h>
 #include <Servo.h>
-
+<!--ความยาวpassword  -->
 #define Password_Length 5
 
 Servo myservo;
@@ -30,6 +30,7 @@ LiquidCrystal lcd(A0, A1, A2, A3, A4, A5);
 int pos = 0;
 
 char Data[Password_Length];
+<!--password-->
 char Master[Password_Length] = "1234";
 byte data_count = 0, master_count = 0;
 
@@ -70,7 +71,7 @@ void ServoOpen()
   }
 }
 ```
-## Action
+## Main Action
 ```cpp
 void setup()
 {
